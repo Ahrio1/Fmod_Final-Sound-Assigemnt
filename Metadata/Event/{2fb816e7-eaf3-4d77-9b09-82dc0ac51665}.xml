@@ -5,7 +5,7 @@
 			<value>AmbWind</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ad8bd7fe-a030-47cb-956a-fa1e79911487}</destination>
@@ -59,18 +59,11 @@
 	<object class="EventAutomatableProperties" id="{743c2c38-5d84-4aa8-9f62-12853b4803d5}" />
 	<object class="MarkerTrack" id="{010d97db-658d-417f-9cd5-cca875f46a07}" />
 	<object class="GroupTrack" id="{a62fd788-c154-49ae-b13b-619b281bc3ec}">
-		<relationship name="modules">
-			<destination>{2533bd40-18ae-48c9-8dab-badf70b9a16f}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{148d96c3-1279-4b7b-8c88-97160c1b45c7}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{3efee86e-1948-4555-a87a-9815b2fd1f98}">
-		<relationship name="modules">
-			<destination>{2533bd40-18ae-48c9-8dab-badf70b9a16f}</destination>
-		</relationship>
-	</object>
+	<object class="Timeline" id="{3efee86e-1948-4555-a87a-9815b2fd1f98}" />
 	<object class="EventMixerMaster" id="{39151f0b-648f-46ae-b253-cebf7eef54cd}">
 		<relationship name="effectChain">
 			<destination>{122086be-a0e3-4c3f-adc9-0926d80cc9e1}</destination>
@@ -88,23 +81,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1b168af8-8a17-476d-af7b-af81597fd128}" />
-	<object class="SingleSound" id="{2533bd40-18ae-48c9-8dab-badf70b9a16f}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="length">
-			<value>12</value>
-		</property>
-		<property name="looping">
-			<value>true</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{13645395-a1f2-46c3-af4b-7133e8df8725}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{148d96c3-1279-4b7b-8c88-97160c1b45c7}">
 		<property name="name">
 			<value>Wind</value>
