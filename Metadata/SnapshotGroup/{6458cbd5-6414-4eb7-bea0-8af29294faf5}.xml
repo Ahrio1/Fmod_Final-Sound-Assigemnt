@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="SnapshotGroup" id="{6458cbd5-6414-4eb7-bea0-8af29294faf5}">
+		<property name="name">
+			<value>OutdoorSnapshots</value>
+		</property>
+		<relationship name="items">
+			<destination>{2f564589-6512-4d0b-a654-6595ab377a00}</destination>
+			<destination>{7e1904b2-db53-4817-82ad-a58f201e772d}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{11a6cec6-32ca-4373-9e94-ad59fe722af7}">
+		<property name="color">
+			<value>Yellow Light 2</value>
+		</property>
 		<property name="name">
-			<value>Lazor gun</value>
+			<value>player_weapon_ranged</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -50,7 +53,7 @@
 			<destination>{93361abb-6f80-4373-b6fe-132d9915578c}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{28788125-a4f5-4183-860f-656257946648}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e4e0eb9b-bf35-4414-b255-c88876ff01bf}" />

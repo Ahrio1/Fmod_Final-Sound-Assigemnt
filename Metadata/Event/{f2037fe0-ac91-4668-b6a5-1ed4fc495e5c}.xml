@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f2037fe0-ac91-4668-b6a5-1ed4fc495e5c}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>AmbGrass</value>
 		</property>
@@ -50,7 +53,7 @@
 			<destination>{4b4ecb27-9172-4ad9-b0fa-b072d2c8ea98}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{3d94d490-f30c-49c0-a7fe-856187133f21}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{2e133ce9-756c-4c9e-88bd-c15c0ab185b3}" />

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{724cd3ef-094f-412e-a61a-1305b672e0be}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="assetPath">
-			<value>low bird sound forest chill.WAV</value>
+			<value>SFX/Bird/low bird sound forest chill.WAV</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

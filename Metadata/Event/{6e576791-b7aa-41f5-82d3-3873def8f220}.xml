@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6e576791-b7aa-41f5-82d3-3873def8f220}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>IntWallCrumble</value>
 		</property>
