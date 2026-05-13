@@ -8,7 +8,7 @@
 			<value>AmbAcidPool</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ad8bd7fe-a030-47cb-956a-fa1e79911487}</destination>
@@ -129,9 +129,11 @@
 	<object class="MixerBusEffectChain" id="{555120d8-19f5-4b6a-a6c4-c0764060290f}">
 		<relationship name="effects">
 			<destination>{b88b3318-2af6-40c1-ad3a-00eb3c70d6a1}</destination>
+			<destination>{7e38ff14-edba-46e1-97a7-9d616efe3892}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{57279805-c032-4138-b289-6e179ea0440c}" />
 	<object class="MixerBusFader" id="{e9031352-f4ed-4628-ade6-511c70bd382c}" />
 	<object class="MixerBusFader" id="{b88b3318-2af6-40c1-ad3a-00eb3c70d6a1}" />
+	<object class="SpatialiserEffect" id="{7e38ff14-edba-46e1-97a7-9d616efe3892}" />
 </objects>
