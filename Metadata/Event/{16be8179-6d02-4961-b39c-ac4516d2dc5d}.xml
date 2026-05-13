@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{16be8179-6d02-4961-b39c-ac4516d2dc5d}">
+		<property name="note">
+			<value>Footsteps sound for player when they are walking/running depedning on what surface standing on
+
+Parametrs 
+Surface: Grass; running on grass sound
+Surface: Rock; running on rock sound
+Surface: Metal; running on metal platfrom sound</value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 2</value>
 		</property>

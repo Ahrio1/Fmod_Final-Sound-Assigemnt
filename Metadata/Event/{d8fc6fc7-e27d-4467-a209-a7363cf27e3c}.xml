@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d8fc6fc7-e27d-4467-a209-a7363cf27e3c}">
+		<property name="note">
+			<value>Acidpool looping sound playes when player are near acid pools in game</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>

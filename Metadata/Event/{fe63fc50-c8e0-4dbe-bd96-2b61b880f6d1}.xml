@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{fe63fc50-c8e0-4dbe-bd96-2b61b880f6d1}">
+		<property name="note">
+			<value>Onehshot sound </value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 2</value>
 		</property>
