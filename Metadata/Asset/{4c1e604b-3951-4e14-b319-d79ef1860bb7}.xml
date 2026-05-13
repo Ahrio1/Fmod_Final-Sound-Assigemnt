@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EncodableAsset" id="{f3b9b424-9fd4-4eb5-9f96-624c62cfff5b}">
+	<object class="EncodableAsset" id="{4c1e604b-3951-4e14-b319-d79ef1860bb7}">
 		<property name="color">
-			<value>Blue</value>
+			<value>Yellow Light 2</value>
 		</property>
 		<property name="assetPath">
-			<value>SFX/Ambiance/</value>
+			<value>SFX/Avatar/Player/Weapon/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
