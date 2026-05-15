@@ -12,8 +12,31 @@
 		</relationship>
 	</object>
 	<object class="GameParameter" id="{893a0568-f1b1-498c-83e5-781ab046037f}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
 		<property name="initialValue">
 			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{c0090d84-1dd3-43d6-9e31-08cff00b6ec5}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{c0090d84-1dd3-43d6-9e31-08cff00b6ec5}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.099999994039535522</value>
+		</property>
+		<property name="speedDescending">
+			<value>0.039999999105930328</value>
+		</property>
+		<property name="asymmetric">
+			<value>true</value>
 		</property>
 	</object>
 </objects>

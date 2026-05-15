@@ -16,7 +16,7 @@ BirdIntesity: Cave; no bird sound</value>
 			<value>AmbBird</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{033d67a6-d2a2-491b-a44d-a7101255419b}</destination>
@@ -75,6 +75,13 @@ BirdIntesity: Cave; no bird sound</value>
 	<object class="EventAutomatableProperties" id="{a44e4ef6-2acf-413d-bf99-63db25742484}" />
 	<object class="MarkerTrack" id="{706dfb4e-b801-4d3a-aa42-2f7c1b95142c}" />
 	<object class="GroupTrack" id="{b25c2cd3-923c-4e76-87ed-db02c64d5b78}">
+		<relationship name="automationTracks">
+			<destination>{852930de-9251-4151-a900-fcca1de286fb}</destination>
+		</relationship>
+		<relationship name="modules">
+			<destination>{db8a7b74-723a-4e8c-8c3a-fdcbe6c5a6a0}</destination>
+			<destination>{542d9ce2-9610-4988-b89c-4ff0298c86ad}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{954112b8-9e44-4549-9d0c-8e93dd5cbcc7}</destination>
 		</relationship>
@@ -95,6 +102,10 @@ BirdIntesity: Cave; no bird sound</value>
 		</property>
 	</object>
 	<object class="ParameterProxy" id="{3df174d6-44d9-473d-b4d9-a8fcc6e07bf3}">
+		<relationship name="modules">
+			<destination>{db8a7b74-723a-4e8c-8c3a-fdcbe6c5a6a0}</destination>
+			<destination>{542d9ce2-9610-4988-b89c-4ff0298c86ad}</destination>
+		</relationship>
 		<relationship name="preset">
 			<destination>{02af4467-4505-4c10-9895-cae430a1bf12}</destination>
 		</relationship>
@@ -116,6 +127,51 @@ BirdIntesity: Cave; no bird sound</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1adc4803-b693-4972-bfdf-2d7f0cef558a}" />
+	<object class="AutomationTrack" id="{852930de-9251-4151-a900-fcca1de286fb}">
+		<relationship name="automator">
+			<destination>{81596446-09b9-4f5b-a3c6-2281c51104c2}</destination>
+		</relationship>
+	</object>
+	<object class="SoundScatterer" id="{db8a7b74-723a-4e8c-8c3a-fdcbe6c5a6a0}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="minimumTimeBetweenSounds">
+			<value>6500</value>
+		</property>
+		<property name="maximumTimeBetweenSounds">
+			<value>10000</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>5</value>
+		</property>
+		<relationship name="sound">
+			<destination>{e4683ce4-2002-4b37-87aa-6810cce041b3}</destination>
+		</relationship>
+	</object>
+	<object class="SoundScatterer" id="{542d9ce2-9610-4988-b89c-4ff0298c86ad}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>1</value>
+		</property>
+		<property name="minimumTimeBetweenSounds">
+			<value>6500</value>
+		</property>
+		<property name="maximumTimeBetweenSounds">
+			<value>10000</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>5</value>
+		</property>
+		<relationship name="automators">
+			<destination>{81596446-09b9-4f5b-a3c6-2281c51104c2}</destination>
+		</relationship>
+		<relationship name="sound">
+			<destination>{825ae812-607e-47f8-8ef0-daf187fde4c5}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{954112b8-9e44-4549-9d0c-8e93dd5cbcc7}">
 		<property name="name">
 			<value>Bird</value>
@@ -165,6 +221,28 @@ BirdIntesity: Cave; no bird sound</value>
 	</object>
 	<object class="MixerBusPanner" id="{17d2f5c7-18e3-48c5-ad5f-2d920fc6af63}" />
 	<object class="MixerBusFader" id="{01d6c347-1a56-49ff-aa51-feb3989458a2}" />
+	<object class="MultiSound" id="{e4683ce4-2002-4b37-87aa-6810cce041b3}">
+		<relationship name="sounds">
+			<destination>{dde560e8-c794-46ef-ba4a-e268f2dd5669}</destination>
+			<destination>{ebbf797c-57e9-48e8-8916-3818d0fbfdfe}</destination>
+			<destination>{698506f6-846e-4487-8b3a-0b66e88fa32a}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{81596446-09b9-4f5b-a3c6-2281c51104c2}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{6450d770-80d1-4a9c-a8da-7a0d3a5bd659}</destination>
+		</relationship>
+	</object>
+	<object class="MultiSound" id="{825ae812-607e-47f8-8ef0-daf187fde4c5}">
+		<relationship name="sounds">
+			<destination>{66e0f32d-a68f-4e54-8423-752b219c8de0}</destination>
+			<destination>{ceec040e-7661-4c86-adc4-5e0fc9b0adf5}</destination>
+			<destination>{7718a32d-855f-4152-941b-708ac6a0fd51}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{47057013-a5b5-4006-81f8-b2aa0d53b8f5}">
 		<relationship name="effects">
 			<destination>{36a4be0f-4849-464c-a8c8-1995cdd1de3a}</destination>
@@ -184,7 +262,62 @@ BirdIntesity: Cave; no bird sound</value>
 	</object>
 	<object class="MixerBusPanner" id="{22d95a7c-5e10-49b0-aa06-05881b7753ba}" />
 	<object class="MixerBusFader" id="{679a3888-b0ce-4db5-83d8-67554ad41c3a}" />
+	<object class="SingleSound" id="{dde560e8-c794-46ef-ba4a-e268f2dd5669}">
+		<relationship name="audioFile">
+			<destination>{ec8f14ef-0654-430c-9233-4f27fa7f9ea3}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{ebbf797c-57e9-48e8-8916-3818d0fbfdfe}">
+		<relationship name="audioFile">
+			<destination>{12411e2a-1c07-4552-b139-ba6cc3ae7660}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{698506f6-846e-4487-8b3a-0b66e88fa32a}">
+		<relationship name="audioFile">
+			<destination>{7326c9d9-c881-4846-81ba-3e8bc367a9b6}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{6450d770-80d1-4a9c-a8da-7a0d3a5bd659}">
+		<relationship name="parameter">
+			<destination>{02af4467-4505-4c10-9895-cae430a1bf12}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{69eec697-b512-465f-bd5b-e28d50f7a7d1}</destination>
+			<destination>{ef85128a-73eb-4f83-b1d0-08528d49cefb}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{66e0f32d-a68f-4e54-8423-752b219c8de0}">
+		<relationship name="audioFile">
+			<destination>{ec8f14ef-0654-430c-9233-4f27fa7f9ea3}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{ceec040e-7661-4c86-adc4-5e0fc9b0adf5}">
+		<relationship name="audioFile">
+			<destination>{12411e2a-1c07-4552-b139-ba6cc3ae7660}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{7718a32d-855f-4152-941b-708ac6a0fd51}">
+		<relationship name="audioFile">
+			<destination>{7326c9d9-c881-4846-81ba-3e8bc367a9b6}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{36a4be0f-4849-464c-a8c8-1995cdd1de3a}" />
 	<object class="MixerBusFader" id="{80739ec0-72ce-4f5f-8271-878106b56ee4}" />
 	<object class="MixerBusFader" id="{03c1f474-8224-444a-9709-5d5bed071f32}" />
+	<object class="AutomationPoint" id="{69eec697-b512-465f-bd5b-e28d50f7a7d1}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{ef85128a-73eb-4f83-b1d0-08528d49cefb}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>-16</value>
+		</property>
+	</object>
 </objects>

@@ -218,10 +218,10 @@ Cavewater: 0.5-1; water sound increasing volume.</value>
 	<object class="MixerBusFader" id="{8823cc0c-2a99-48bd-922f-a54193745605}" />
 	<object class="AutomationPoint" id="{65a04a7d-e860-42bc-8201-c76c877cdcc0}">
 		<property name="position">
-			<value>0</value>
+			<value>0.059999999999999998</value>
 		</property>
 		<property name="value">
-			<value>-14</value>
+			<value>-32</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{92bed85e-816e-4718-96d9-ee28b368971a}">
@@ -229,7 +229,7 @@ Cavewater: 0.5-1; water sound increasing volume.</value>
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-7</value>
+			<value>-19</value>
 		</property>
 	</object>
 </objects>

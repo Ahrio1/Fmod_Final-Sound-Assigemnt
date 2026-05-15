@@ -21,5 +21,22 @@
 		<property name="isExposedRecursively">
 			<value>false</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{57ed997c-c162-4357-9cb4-940f5c4f0f6d}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{57ed997c-c162-4357-9cb4-940f5c4f0f6d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.099999994039535522</value>
+		</property>
+		<property name="speedDescending">
+			<value>0.059999998658895493</value>
+		</property>
+		<property name="asymmetric">
+			<value>true</value>
+		</property>
 	</object>
 </objects>
