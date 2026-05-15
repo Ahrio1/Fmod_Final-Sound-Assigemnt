@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{a526772e-55b2-4c7c-a46a-27bcafac2c88}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="assetPath">
 			<value>SFX/Ambiance/frying burger sound 2.wav</value>
 		</property>

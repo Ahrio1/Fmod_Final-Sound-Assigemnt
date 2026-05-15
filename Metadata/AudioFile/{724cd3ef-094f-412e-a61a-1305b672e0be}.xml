@@ -5,7 +5,7 @@
 			<value>Blue</value>
 		</property>
 		<property name="assetPath">
-			<value>SFX/Ambiance/low bird sound forest chill.WAV</value>
+			<value>SFX/Ambiance/Bird/low bird sound forest chill.WAV</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

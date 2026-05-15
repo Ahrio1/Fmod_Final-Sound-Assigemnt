@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{ac570b15-2766-48ce-903c-610fb9684e3d}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="assetPath">
 			<value>SFX/Ambiance/Back ground water loop sound.wav</value>
 		</property>
