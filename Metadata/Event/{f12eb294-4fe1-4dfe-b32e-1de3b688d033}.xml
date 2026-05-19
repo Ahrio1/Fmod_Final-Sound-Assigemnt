@@ -284,6 +284,7 @@ BirdIntesity: Cave; no bird sound</value>
 		<relationship name="automationPoints">
 			<destination>{69eec697-b512-465f-bd5b-e28d50f7a7d1}</destination>
 			<destination>{ef85128a-73eb-4f83-b1d0-08528d49cefb}</destination>
+			<destination>{d56d2da2-9bd8-4a7f-a201-f2dc0d098eed}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{66e0f32d-a68f-4e54-8423-752b219c8de0}">
@@ -318,6 +319,14 @@ BirdIntesity: Cave; no bird sound</value>
 		</property>
 		<property name="value">
 			<value>-16</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{d56d2da2-9bd8-4a7f-a201-f2dc0d098eed}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
 		</property>
 	</object>
 </objects>
