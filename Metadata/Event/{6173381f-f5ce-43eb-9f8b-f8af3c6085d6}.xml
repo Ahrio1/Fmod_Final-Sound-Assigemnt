@@ -69,7 +69,11 @@ Cavewater: 0.5-1; water sound increasing volume.</value>
 			<destination>{3d94d490-f30c-49c0-a7fe-856187133f21}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{2e2bad1c-7177-4434-9336-3696b29bad2b}" />
+	<object class="EventAutomatableProperties" id="{2e2bad1c-7177-4434-9336-3696b29bad2b}">
+		<property name="isPersistent">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{b5647bd4-41fa-4fd6-9ed8-0669e7798940}" />
 	<object class="GroupTrack" id="{af15122e-5df7-4346-aa29-57ff2e11df45}">
 		<relationship name="automationTracks">

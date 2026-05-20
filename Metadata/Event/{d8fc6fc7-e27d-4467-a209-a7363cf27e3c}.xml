@@ -59,7 +59,7 @@
 			<destination>{92ca1848-f5e4-47f3-ada8-828d47546862}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{3d94d490-f30c-49c0-a7fe-856187133f21}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{762bfed4-ad9d-425e-9462-009a3baed480}" />
@@ -106,6 +106,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5f770ab5-e87f-4841-91dd-1488910cd289}">
+		<property name="volume">
+			<value>-40</value>
+		</property>
 		<property name="name">
 			<value>Acid</value>
 		</property>
@@ -144,10 +147,25 @@
 		<relationship name="effects">
 			<destination>{b88b3318-2af6-40c1-ad3a-00eb3c70d6a1}</destination>
 			<destination>{7e38ff14-edba-46e1-97a7-9d616efe3892}</destination>
+			<destination>{0f03d36c-4647-46be-9078-b6db32f70b3a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{57279805-c032-4138-b289-6e179ea0440c}" />
 	<object class="MixerBusFader" id="{e9031352-f4ed-4628-ade6-511c70bd382c}" />
 	<object class="MixerBusFader" id="{b88b3318-2af6-40c1-ad3a-00eb3c70d6a1}" />
 	<object class="SpatialiserEffect" id="{7e38ff14-edba-46e1-97a7-9d616efe3892}" />
+	<object class="DelayEffect" id="{0f03d36c-4647-46be-9078-b6db32f70b3a}">
+		<property name="delay">
+			<value>5000</value>
+		</property>
+		<property name="feedback">
+			<value>18.5</value>
+		</property>
+		<property name="level">
+			<value>-4.5</value>
+		</property>
+		<property name="dryLevel">
+			<value>-8.5</value>
+		</property>
+	</object>
 </objects>

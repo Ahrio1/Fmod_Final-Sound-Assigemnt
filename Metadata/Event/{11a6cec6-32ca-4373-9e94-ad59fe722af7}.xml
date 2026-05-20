@@ -8,7 +8,7 @@
 			<value>player_weapon_ranged</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e6fc56e6-bcaa-483f-a0b5-8582a48acadc}</destination>
@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{61d3e514-3032-4e7e-beaf-dc8e9553cbcb}">
+		<property name="overridingInputFormat">
+			<value>0</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{081efa46-b67d-4fd0-a52d-58c5c2fa90db}</destination>
 		</relationship>
@@ -119,6 +122,7 @@
 	<object class="MixerBusEffectChain" id="{081efa46-b67d-4fd0-a52d-58c5c2fa90db}">
 		<relationship name="effects">
 			<destination>{c75ddbf1-ec84-476b-866b-70383817b9e3}</destination>
+			<destination>{2e8f4759-08cc-4378-a4e5-97b7b537abd4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e86330c4-2442-4daf-858f-6a757a06ad94}" />
@@ -131,6 +135,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{645a6917-a931-4d7e-acb2-c9a4b6f76217}" />
 	<object class="MixerBusFader" id="{c75ddbf1-ec84-476b-866b-70383817b9e3}" />
+	<object class="PannerEffect" id="{2e8f4759-08cc-4378-a4e5-97b7b537abd4}">
+		<property name="overridingOutputFormat">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{e4919bb4-3846-4105-a66c-5fc56812ed18}" />
 	<object class="PitchShifterEffect" id="{c8fe57ab-4dcd-4478-ad1f-bd4d292528fb}">
 		<property name="pitch">
