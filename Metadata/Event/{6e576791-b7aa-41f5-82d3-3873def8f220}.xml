@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6e576791-b7aa-41f5-82d3-3873def8f220}">
+		<property name="note">
+			<value>Oneshoot sound for wall gets destroyed and you hear rock debris scater on the floor </value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>
@@ -8,7 +11,7 @@
 			<value>IntWallCrumble</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{12254d61-9e4e-4126-a3b9-65a43a243e25}</destination>
@@ -27,6 +30,9 @@
 		</relationship>
 		<relationship name="markerTracks">
 			<destination>{8bbd8c9b-4e14-49e8-a81d-c78ecd21f923}</destination>
+		</relationship>
+		<relationship name="groupTracks">
+			<destination>{ed97762d-a93f-44b1-aa8a-af1432158965}</destination>
 		</relationship>
 		<relationship name="timeline">
 			<destination>{4b339312-237c-4aa8-bdcc-c2b3621f5e08}</destination>
@@ -58,10 +64,18 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{7fdb321b-2564-46db-8ae2-06157f901819}" />
 	<object class="MarkerTrack" id="{8bbd8c9b-4e14-49e8-a81d-c78ecd21f923}" />
+	<object class="GroupTrack" id="{ed97762d-a93f-44b1-aa8a-af1432158965}">
+		<relationship name="modules">
+			<destination>{c108f379-c629-4edf-8943-6cadb74f80bf}</destination>
+		</relationship>
+		<relationship name="mixerGroup">
+			<destination>{6fa25903-65d0-441e-933e-06d06967c877}</destination>
+		</relationship>
+	</object>
 	<object class="Timeline" id="{4b339312-237c-4aa8-bdcc-c2b3621f5e08}">
-		<property name="isProxyEnabled">
-			<value>false</value>
-		</property>
+		<relationship name="modules">
+			<destination>{c108f379-c629-4edf-8943-6cadb74f80bf}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9ed8759d-90c9-4b52-bd04-e2d03f2febbd}">
 		<relationship name="effectChain">
@@ -80,6 +94,34 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d0ffd2c6-7ab6-424a-aa8c-35d7bdc3ae30}" />
+	<object class="SingleSound" id="{c108f379-c629-4edf-8943-6cadb74f80bf}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="length">
+			<value>2</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{f910c029-20e9-4d69-9513-9d8a8dedeb74}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixerGroup" id="{6fa25903-65d0-441e-933e-06d06967c877}">
+		<property name="name">
+			<value>Rock Debris</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{4c0002b7-0a10-41e6-98b5-23393222d557}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{1256a806-4407-4c00-a5be-5bf73ecda449}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{9ed8759d-90c9-4b52-bd04-e2d03f2febbd}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{a3503334-39bf-4ccb-b9fc-fd4c1c227fde}">
 		<relationship name="effects">
 			<destination>{6ae4ddec-e06a-4aa9-8a83-113a99b579d9}</destination>
@@ -87,5 +129,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{1d7ab2a6-3d0f-43f1-b064-6bc99b4728ef}" />
 	<object class="MixerBusFader" id="{dc4513d7-8a3d-4c9a-87a5-930e010c6c4a}" />
+	<object class="MixerBusEffectChain" id="{4c0002b7-0a10-41e6-98b5-23393222d557}">
+		<relationship name="effects">
+			<destination>{c1ea8fdd-fa5a-4004-8cb7-85daa920fe0b}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{1256a806-4407-4c00-a5be-5bf73ecda449}" />
 	<object class="MixerBusFader" id="{6ae4ddec-e06a-4aa9-8a83-113a99b579d9}" />
+	<object class="MixerBusFader" id="{c1ea8fdd-fa5a-4004-8cb7-85daa920fe0b}" />
 </objects>
