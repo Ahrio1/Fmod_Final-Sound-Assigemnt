@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{82b71275-2f71-4017-a9b7-73a0a6eab89c}">
+		<property name="note">
+			<value>Gunner fires a electrice attack on the ground </value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
