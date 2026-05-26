@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{842d7684-00a9-4900-96cd-d5953fc01340}">
+		<property name="color">
+			<value>Red</value>
+		</property>
+		<property name="assetPath">
+			<value>SFX/Avatar/Enemy/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>
