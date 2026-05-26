@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{4f55fd30-098b-4ba4-bdff-0e525e578eb1}">
+	<object class="AudioFile" id="{f13b5f5f-a404-4c4c-a675-fc36fb36b556}">
 		<property name="color">
 			<value>Yellow Light 2</value>
 		</property>
 		<property name="assetPath">
-			<value>SFX/Avatar/Player/Footstep/Footsteps gräss_002.wav</value>
+			<value>SFX/Avatar/Player/Footstep/Footsteps gräss_004.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -14,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.26013605442176868</value>
+			<value>0.14401360544217687</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
