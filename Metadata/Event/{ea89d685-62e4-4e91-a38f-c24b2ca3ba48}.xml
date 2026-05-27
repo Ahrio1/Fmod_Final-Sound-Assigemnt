@@ -14,7 +14,13 @@ BirdIntesity defies the amount of birds noise we hear depdening on location
 paramets 
 BirdIntesity: Outside; Clear bird sound 
 BirdIntesity: HalfOutside; minor bird sound
-BirdIntesity: Cave; no bird sound</value>
+BirdIntesity: Cave; no bird sound
+
+water flowing in backgound for caves only
+
+Parametrs 
+Cavewater: 0-0.5; no water sound
+Cavewater: 0.5-1; water sound increasing volume.</value>
 		</property>
 		<property name="color">
 			<value>Blue</value>
