@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a47cab9e-869b-45e5-bef5-751b5e1b1e6d}">
 		<property name="note">
-			<value>Gunner short lazor shot </value>
+			<value>Gunner shoots lazor shot big sound</value>
 		</property>
 		<property name="color">
 			<value>Red</value>
@@ -198,7 +198,7 @@
 			<value>0.098522167487684734</value>
 		</property>
 		<property name="value">
-			<value>3.81469727e-06</value>
+			<value>-14</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{798a244e-9322-4ae9-8131-a4813b3f6f5b}">
@@ -206,7 +206,7 @@
 			<value>0.5</value>
 		</property>
 		<property name="value">
-			<value>-14</value>
+			<value>-27</value>
 		</property>
 	</object>
 </objects>
