@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{2abc9fb7-5e25-40f7-b4a2-fdbbeaf52b5b}">
+		<property name="note">
+			<value>3.06 5.03</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

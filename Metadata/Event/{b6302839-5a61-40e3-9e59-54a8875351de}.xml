@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b6302839-5a61-40e3-9e59-54a8875351de}">
+		<property name="note">
+			<value>Playes when player use melee weapon</value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 2</value>
 		</property>

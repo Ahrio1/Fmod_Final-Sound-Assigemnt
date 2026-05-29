@@ -5,9 +5,9 @@
 			<value>Footsteps sound for player when they are walking/running depedning on what surface standing on
 
 Parametrs 
-Surface: Grass; running on grass sound
-Surface: Rock; running on rock sound
-Surface: Metal; running on metal platfrom sound</value>
+Surface: 0; running on grass sound
+Surface: 1; running on rock sound
+Surface: 2; running on metal platfrom sound</value>
 		</property>
 		<property name="color">
 			<value>Yellow Light 2</value>
