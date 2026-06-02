@@ -11,7 +11,7 @@
 			<value>IntButton</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{12254d61-9e4e-4126-a3b9-65a43a243e25}</destination>
@@ -62,7 +62,14 @@
 			<destination>{545915ed-80be-4172-8062-0e8c6310f99c}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{05d5b3e2-e71e-4f9c-9ac2-e5afad084f3c}" />
+	<object class="EventAutomatableProperties" id="{05d5b3e2-e71e-4f9c-9ac2-e5afad084f3c}">
+		<property name="minimumDistance">
+			<value>7</value>
+		</property>
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{03651902-fa84-4939-a6d5-808f32f0d964}" />
 	<object class="GroupTrack" id="{16289584-1f18-48aa-b170-9bb712b954ca}">
 		<relationship name="modules">
@@ -125,6 +132,7 @@
 	<object class="MixerBusEffectChain" id="{77feab94-c38f-49e8-af8e-2a0a5a602371}">
 		<relationship name="effects">
 			<destination>{08d2f33a-2643-432f-b0a5-3c3f00ff24ea}</destination>
+			<destination>{6e049d57-b1cd-46aa-b0e1-1df98db24d62}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{15bb0b3f-eba9-4f47-add1-a34c9adfcd36}" />
@@ -136,5 +144,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{685a3d4e-e5d7-454c-b2fb-6dfc10991256}" />
 	<object class="MixerBusFader" id="{08d2f33a-2643-432f-b0a5-3c3f00ff24ea}" />
+	<object class="SpatialiserEffect" id="{6e049d57-b1cd-46aa-b0e1-1df98db24d62}" />
 	<object class="MixerBusFader" id="{d2c5b112-0998-4da8-a13d-db42869dda51}" />
 </objects>

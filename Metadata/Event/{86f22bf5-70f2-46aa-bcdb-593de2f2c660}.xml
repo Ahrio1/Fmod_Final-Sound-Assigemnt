@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{86f22bf5-70f2-46aa-bcdb-593de2f2c660}">
+		<property name="note">
+			<value>plays when shield breaks </value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

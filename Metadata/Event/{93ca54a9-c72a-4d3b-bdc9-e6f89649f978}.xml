@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{93ca54a9-c72a-4d3b-bdc9-e6f89649f978}">
+		<property name="note">
+			<value>Manage sheild state
+
+paramters 
+Sheild = 0; shield is going up
+Sheild = 1; shield is going down 
+</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
