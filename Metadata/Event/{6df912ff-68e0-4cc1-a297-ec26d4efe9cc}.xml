@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6df912ff-68e0-4cc1-a297-ec26d4efe9cc}">
+		<property name="note">
+			<value>Playes when spitter use range attack</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
