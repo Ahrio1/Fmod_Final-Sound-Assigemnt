@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{9743aad4-226a-4ce0-97c7-8b650707901e}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>IntUiButton</value>
 		</property>
@@ -53,7 +56,7 @@
 			<destination>{8fdae3ab-071f-49db-87e8-7669c11cf2a5}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{545915ed-80be-4172-8062-0e8c6310f99c}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{c8752aaa-88f4-4c56-9fe2-c4940ec6619a}" />
