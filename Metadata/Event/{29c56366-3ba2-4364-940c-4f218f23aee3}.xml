@@ -67,7 +67,7 @@ Steamstage = 2; gunner emeits more steam bit higher </value>
 			<destination>{3b38a011-38d3-4189-b84d-72063eadb0e9}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{14ffa905-eae6-441d-8622-2e24c2ab3453}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{feb3be2e-b20d-477a-9610-ca95e259064c}" />

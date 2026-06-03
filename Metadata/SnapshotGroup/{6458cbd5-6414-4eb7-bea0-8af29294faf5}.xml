@@ -4,9 +4,5 @@
 		<property name="name">
 			<value>OutdoorSnapshots</value>
 		</property>
-		<relationship name="items">
-			<destination>{2f564589-6512-4d0b-a654-6595ab377a00}</destination>
-			<destination>{7e1904b2-db53-4817-82ad-a58f201e772d}</destination>
-		</relationship>
 	</object>
 </objects>

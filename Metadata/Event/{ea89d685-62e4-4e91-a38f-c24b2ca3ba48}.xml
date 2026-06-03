@@ -123,6 +123,7 @@ Cavewater: 0.5-1; water sound increasing volume.</value>
 	<object class="GroupTrack" id="{d7f358d1-f5d4-441e-b6e5-d40a8afb7807}">
 		<relationship name="modules">
 			<destination>{3524c2ad-a6dc-451c-8f60-98b799f0fe24}</destination>
+			<destination>{d4e804f9-bd25-473b-93c1-da262b0cd625}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{2b26704d-9163-4bfd-bd73-5205174be7d5}</destination>
@@ -140,6 +141,7 @@ Cavewater: 0.5-1; water sound increasing volume.</value>
 			<destination>{7ebb849a-f08f-4273-bab0-6925b24f68bf}</destination>
 			<destination>{1cdb32d2-2ab2-4b8a-a929-063f2a8c8053}</destination>
 			<destination>{97e57655-71cc-4b2d-b3bb-68d3a54a4d88}</destination>
+			<destination>{d4e804f9-bd25-473b-93c1-da262b0cd625}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{46d54565-ce18-4b61-bb37-9a70ba3fd08b}</destination>
@@ -290,6 +292,14 @@ Cavewater: 0.5-1; water sound increasing volume.</value>
 	<object class="SnapshotModule" id="{3524c2ad-a6dc-451c-8f60-98b799f0fe24}">
 		<relationship name="event">
 			<destination>{6d5c9202-ac26-4f48-bf23-032ece508ec2}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotModule" id="{d4e804f9-bd25-473b-93c1-da262b0cd625}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<relationship name="event">
+			<destination>{98e53466-708a-43ed-861e-804f45451cfe}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2b26704d-9163-4bfd-bd73-5205174be7d5}">

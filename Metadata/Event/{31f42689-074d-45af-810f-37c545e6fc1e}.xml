@@ -11,7 +11,7 @@
 			<value>Walk</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c6f7a8b8-1abf-4328-8c8c-1a17dc8c3f33}</destination>
@@ -63,10 +63,17 @@
 			<destination>{69d3493c-7a28-472e-a59f-1bbe98577a17}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{14ffa905-eae6-441d-8622-2e24c2ab3453}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{63220ede-e3de-4d43-87fa-376e0faebb08}" />
+	<object class="EventAutomatableProperties" id="{63220ede-e3de-4d43-87fa-376e0faebb08}">
+		<property name="minimumDistance">
+			<value>3.60000014</value>
+		</property>
+		<property name="maximumDistance">
+			<value>40</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{4a58ec9a-5acc-48fe-a1f3-51c837870345}" />
 	<object class="GroupTrack" id="{6fec42f8-b0f2-4458-af99-1f0c77833fd9}">
 		<relationship name="modules">
@@ -118,6 +125,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{dcc1ec85-f670-4588-9f59-94fcc4674333}">
+		<property name="volume">
+			<value>-18.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{16c77d93-8aec-49c9-bd96-985479bdf897}</destination>
 		</relationship>
@@ -274,6 +284,7 @@
 		<relationship name="effects">
 			<destination>{07ebc198-0562-489e-b8ff-e20c17006688}</destination>
 			<destination>{63d9836c-e56c-4b47-b75f-573c78e488f4}</destination>
+			<destination>{3a3d602e-d81a-40d5-ab40-a2cfac04d523}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{451abdbb-e912-42c3-897d-a02ccd70e1aa}" />
@@ -360,6 +371,7 @@
 			<value>2000</value>
 		</property>
 	</object>
+	<object class="SpatialiserEffect" id="{3a3d602e-d81a-40d5-ab40-a2cfac04d523}" />
 	<object class="MixerBusFader" id="{29ec4ece-73db-44a3-b809-b5f4fedfe5dc}" />
 	<object class="FlangerEffect" id="{69b9eca6-d8df-4094-ba4d-9ae477dc9f0a}">
 		<property name="rate">
