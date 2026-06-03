@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{752d6dcf-a6a8-4378-bc0d-e7e7fee8d82b}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="assetPath">
 			<value>SFX/Avatar/Enemy/SpitterChomper/chomper spitter death scream_001_003.wav</value>
 		</property>

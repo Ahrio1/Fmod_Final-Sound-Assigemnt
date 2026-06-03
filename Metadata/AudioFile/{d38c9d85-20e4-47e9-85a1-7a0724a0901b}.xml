@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{d38c9d85-20e4-47e9-85a1-7a0724a0901b}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="assetPath">
 			<value>SFX/Avatar/Enemy/Gunner/Attack/Emp shot alien.wav</value>
 		</property>

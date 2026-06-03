@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{2ebb6b50-4b2f-43ee-b599-e1c6de1cdc4d}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="assetPath">
 			<value>SFX/Avatar/Enemy/Gunner/Attack/Emp grande alien_001 - Trimmed.wav</value>
 		</property>
