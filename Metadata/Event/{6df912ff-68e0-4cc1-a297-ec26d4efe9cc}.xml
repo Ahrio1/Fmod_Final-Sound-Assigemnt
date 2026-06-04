@@ -11,7 +11,7 @@
 			<value>SpitterSpit</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{79af41a6-4b9d-4858-93d8-920d797efdbf}</destination>
@@ -64,7 +64,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{87552667-dfc4-478e-a115-de614b364865}">
 		<property name="minimumDistance">
-			<value>3.60000014</value>
+			<value>5.20000029</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{e1a7674d-f8d7-4706-bbdc-70993e29e19d}" />
@@ -123,6 +123,7 @@
 	<object class="MixerBusEffectChain" id="{057cc38d-8edb-410b-91db-b65df1190399}">
 		<relationship name="effects">
 			<destination>{7ff94d0b-7700-43a1-98cd-df594d4505ad}</destination>
+			<destination>{0444ce6e-2762-4896-8777-b90a16296596}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1b279405-fe31-4132-8cc4-fb43d01b8bf4}" />
@@ -136,6 +137,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{a4b56837-e2c1-4693-9dfa-61e85065a2d4}" />
 	<object class="MixerBusFader" id="{7ff94d0b-7700-43a1-98cd-df594d4505ad}" />
+	<object class="SpatialiserEffect" id="{0444ce6e-2762-4896-8777-b90a16296596}" />
 	<object class="MixerBusFader" id="{44b118f3-3a8e-424f-9b18-7ad7be602f24}" />
 	<object class="ObjectSpatialiserEffect" id="{f6a57720-3f64-4f63-8ecb-1d8e73dad340}" />
 	<object class="HighpassEffect" id="{52b90eb0-3970-4410-a7d4-4449e0160fa6}">
