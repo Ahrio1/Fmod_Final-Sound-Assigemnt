@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EncodableAsset" id="{c871a5a8-190a-455c-9c58-62840b902c74}">
+	<object class="AudioFile" id="{f410b5c1-30ed-490e-a097-8154bb07c717}">
 		<property name="color">
 			<value>Blue</value>
 		</property>
 		<property name="assetPath">
-			<value>SFX/Ambiance/Bird/</value>
+			<value>SFX/Ambiance/splash water.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.2390702947845804</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{4247db7f-4707-46a0-adbe-1b9484c5ea3e}">
+		<property name="note">
+			<value>Starts playing when player pushes a box and stops when players stop
+
+parameters
+End = 0; nothing happens
+End = 1; jumps to End and stops looop </value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>
@@ -96,6 +103,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{30d2ae58-88eb-4ce4-9a48-94f6446c5d5b}">
+		<property name="volume">
+			<value>4.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{d6574ec6-c470-4f3d-a24f-d23d06ec204c}</destination>
 		</relationship>

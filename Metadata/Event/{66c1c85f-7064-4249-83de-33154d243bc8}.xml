@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{66c1c85f-7064-4249-83de-33154d243bc8}">
+		<property name="note">
+			<value>Play when stone door opens</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>
