@@ -19,11 +19,6 @@
 		<relationship name="snapshotMasterTrack">
 			<destination>{17c39468-c6eb-4dde-b6db-c84b008bbf10}</destination>
 		</relationship>
-		<relationship name="snapshotProperties">
-			<destination>{c13a0378-15ca-444c-b482-f0ba8b52df47}</destination>
-			<destination>{15a701cc-c18d-472a-ac5a-28753af5c85f}</destination>
-			<destination>{fae58710-8685-4199-89d4-f129fbc2c960}</destination>
-		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{5f493f9a-28c2-4ab6-92ac-3dcbb713929f}</destination>
 		</relationship>
@@ -32,39 +27,6 @@
 	<object class="MarkerTrack" id="{151a3bf0-ec12-4621-9019-72da47ec4cfe}" />
 	<object class="Timeline" id="{f57a2f36-b8b2-4d88-a0f9-ac50f9f07fd1}" />
 	<object class="SnapshotMasterTrack" id="{17c39468-c6eb-4dde-b6db-c84b008bbf10}" />
-	<object class="SnapshotProperty" id="{c13a0378-15ca-444c-b482-f0ba8b52df47}">
-		<property name="propertyName">
-			<value>decayTime</value>
-		</property>
-		<property name="value">
-			<value>170</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{c36829c6-1d80-4a88-b2cd-30550688eaff}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{15a701cc-c18d-472a-ac5a-28753af5c85f}">
-		<property name="propertyName">
-			<value>wetLevel</value>
-		</property>
-		<property name="value">
-			<value>-6</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{c36829c6-1d80-4a88-b2cd-30550688eaff}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{fae58710-8685-4199-89d4-f129fbc2c960}">
-		<property name="propertyName">
-			<value>dryLevel</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{c36829c6-1d80-4a88-b2cd-30550688eaff}</destination>
-		</relationship>
-	</object>
 	<object class="SnapshotTrack" id="{5f493f9a-28c2-4ab6-92ac-3dcbb713929f}">
 		<relationship name="mixerStrip">
 			<destination>{94656b8e-84b6-4258-bd7e-4b224c95d386}</destination>
