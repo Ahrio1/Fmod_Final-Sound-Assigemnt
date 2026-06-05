@@ -78,6 +78,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{61d3e514-3032-4e7e-beaf-dc8e9553cbcb}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="overridingInputFormat">
 			<value>0</value>
 		</property>
@@ -124,6 +127,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{081efa46-b67d-4fd0-a52d-58c5c2fa90db}">
 		<relationship name="effects">
+			<destination>{e23263cd-3e7b-4b5f-9418-d682e4d2a836}</destination>
 			<destination>{c75ddbf1-ec84-476b-866b-70383817b9e3}</destination>
 			<destination>{2e8f4759-08cc-4378-a4e5-97b7b537abd4}</destination>
 		</relationship>
@@ -134,9 +138,11 @@
 		<relationship name="effects">
 			<destination>{e4919bb4-3846-4105-a66c-5fc56812ed18}</destination>
 			<destination>{c8fe57ab-4dcd-4478-ad1f-bd4d292528fb}</destination>
+			<destination>{65a81e32-551d-4482-8ff4-cea2ff453dad}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{645a6917-a931-4d7e-acb2-c9a4b6f76217}" />
+	<object class="SpectrumAnalyzer" id="{e23263cd-3e7b-4b5f-9418-d682e4d2a836}" />
 	<object class="MixerBusFader" id="{c75ddbf1-ec84-476b-866b-70383817b9e3}" />
 	<object class="PannerEffect" id="{2e8f4759-08cc-4378-a4e5-97b7b537abd4}">
 		<property name="overridingOutputFormat">
@@ -152,12 +158,29 @@
 			<destination>{0aaad567-3cf5-4f1b-962a-76823c6fb203}</destination>
 		</relationship>
 	</object>
+	<object class="CompressorEffect" id="{65a81e32-551d-4482-8ff4-cea2ff453dad}">
+		<property name="threshold">
+			<value>-50</value>
+		</property>
+		<property name="ratio">
+			<value>42</value>
+		</property>
+		<property name="attackTime">
+			<value>0.100000001</value>
+		</property>
+		<property name="releaseTime">
+			<value>10</value>
+		</property>
+		<property name="gain">
+			<value>8</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{0aaad567-3cf5-4f1b-962a-76823c6fb203}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>5.5</value>
+			<value>5</value>
 		</property>
 	</object>
 </objects>
